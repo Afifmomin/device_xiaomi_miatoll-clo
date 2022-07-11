@@ -233,6 +233,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
+# Memtrack
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.memtrack-service
+
 # LMK
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.lmk.force_inkernel_lmk=true
