@@ -214,6 +214,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.bpf.kver_override=5.10.239
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor \
