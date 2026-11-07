@@ -78,6 +78,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/miatoll
 
 # OTA
 AB_OTA_UPDATER := false
+BOARD_USES_FULL_RECOVERY_IMAGE := true
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
 
 # Partitions
