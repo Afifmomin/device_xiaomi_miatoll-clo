@@ -77,6 +77,7 @@ KERNEL_DEFCONFIG := vendor/xiaomi/miatoll_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/miatoll
 
 # OTA
+AB_OTA_UPDATER := false
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
 
 # Partitions
