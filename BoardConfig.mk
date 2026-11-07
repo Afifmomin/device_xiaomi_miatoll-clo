@@ -77,8 +77,18 @@ KERNEL_DEFCONFIG := vendor/xiaomi/miatoll_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/miatoll
 
 # OTA
-AB_OTA_UPDATER := false
-BOARD_USES_FULL_RECOVERY_IMAGE := true
+AB_OTA_UPDATER := true
+AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
+    product \
+    recovery \
+    system \
+    system_ext \
+    vbmeta \
+    vbmeta_system \
+    vendor
+
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
 
 # Partitions
